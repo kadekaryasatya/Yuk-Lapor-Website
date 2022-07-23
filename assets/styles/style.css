@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #00a2c6;
+}
+
+h3 {
+  color: #00a2c6;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  float: left;
+  margin-right: 50px;
+  width: 10%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.featured-image1 {
+  float: left;
+  margin-right: 50px;
+  width: 25%;
+  height: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.featured-image2 {
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  text-align: center;
+  color: #00a2c6;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+.logo-image {
+  width: 200px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+header {
+  display: inline;
+}
+
+.dropbtn {
+  background-color: #00a2c6;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  overflow: auto;
+  z-index: 1;
+}
+
+.show {
+  display: block;
+}
